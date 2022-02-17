@@ -82,7 +82,8 @@
 
     /* start */
     #service .service_ttle h3,
-    #partnar .partnar_ttle h3{
+    #partnar .partnar_ttle h3,
+    #subcriber .service_ttle h3{
         font-size: 31px;
     }
     /* end */
@@ -109,7 +110,8 @@
     /* end */
     /* start */
     #service .service_ttle h3,
-    #partnar .partnar_ttle h3{
+    #partnar .partnar_ttle h3,
+    #subcriber .service_ttle h3{
         font-size: 28px;
     }
     #service .service_ttle p,
@@ -228,6 +230,17 @@
     }
 }
 @media(max-width:767.98px){
+
+    /* start */
+    #subcriber .service_ttle p{
+        font-size: 14px;
+    }
+    #subcriber .subcribe_counterup::before,
+    #subcriber .subcribe_counterup::after{
+        display: none;
+    }
+    /* end */
+
     /* start */
     #partnar .partnar_arrow{
         position: absolute;
@@ -293,6 +306,9 @@
     }
     #partnar .partnar_arrow.partnar_right{
         right: 100px; ;
+    }
+    #subcriber .service_ttle h3{
+        font-size: 20px;
     }
 }
 @media(max-width:340px){
